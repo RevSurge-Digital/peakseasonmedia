@@ -1,0 +1,14 @@
+{
+  "name": "Peak Season Media",
+  "short_name": "Peak Season",
+  "description": "Food & beverage marketing for Sarasota's restaurants, bars, cafes, bakeries and food trucks.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FBFAF7",
+  "theme_color": "#16213A",
+  "icons": [
+    { "src": "/favicon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/favicon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/favicon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

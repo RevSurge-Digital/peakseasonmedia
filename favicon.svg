@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Peak Season Media">
+  <rect width="200" height="200" rx="44" ry="44" fill="#16213A"/>
+  <path fill="#FFFFFF" fill-rule="evenodd"
+        d="M100 36 L168 157 L32 157 Z
+           M100 72 L134 157 L66 157 Z"/>
+  <path fill="#F58220" d="M100 111 L126 157 L74 157 Z"/>
+</svg>

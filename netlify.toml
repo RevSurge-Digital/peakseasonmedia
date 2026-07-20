@@ -1,0 +1,5 @@
+[build]
+  publish = "."
+
+# Static site: nothing to compile. Netlify serves /contact for contact.html
+# automatically, so both the old bare-path links and the new .html links work.
