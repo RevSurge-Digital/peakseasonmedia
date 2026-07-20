@@ -29,7 +29,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&amp;family=Oswald:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
-<link rel="stylesheet" href="/styles.5d7fc08917.css">
+<link rel="stylesheet" href="/styles.ce5f7a5826.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -188,7 +188,8 @@
 </section>
 
 <article class="section">
-  <div class="container prose article-body">
+  <div class="container">
+    <div class="prose article-body">
 <p>A small kitchen in Osprey runs three people on a Tuesday. One of them is also the person who answers the phone, replies to reviews, checks the catering inbox, updates the holiday hours and remembers that someone asked about a gluten-free option on Instagram nine days ago. AI for small restaurants is only interesting because of that person. Not because the technology is exciting &mdash; because there is a front office worth of admin sitting on top of a three-person operation, and it is being done badly at eleven at night.</p>
 
 <p>Most of what gets sold as restaurant AI misses this. It promises to write your marketing, invent your specials and talk to your customers as if it worked there. That is the wrong shape. The useful version is narrower and duller: an assistant that catches what would otherwise be missed, drafts what you would otherwise write from scratch, and hands off cleanly the moment it is out of its depth.</p>
@@ -246,6 +247,7 @@
 <h2>What to do first</h2>
 
 <p>Pick one channel and count the leak for a week. Log missed calls, unanswered forms, and how many days old the oldest unreplied review is. That single count is usually enough to make the decision for you. Then start with after-hours enquiry capture &mdash; it is the lowest-risk place to begin, because the assistant is competing with nobody picking up at all. Get it answering the fixed questions correctly and handing off everything else, run it for a month, and only then add review drafting. If you want help scoping which parts of your week are worth handing over, that is exactly what our <a href="/ai-implementation.html">AI implementation work</a> is for &mdash; and if your website cannot capture the enquiry in the first place, fix <a href="/website-design.html">that</a> before you automate anything.</p>
+    </div>
   </div>
 </article>
 
@@ -347,6 +349,49 @@
   </div>
 </footer>
 
-<script src="/script.e5e28a332b.js" defer></script>
+<!-- Accessibility options: self-hosted, no third-party overlay -->
+<button type="button" class="a11y-fab" id="a11y-fab" aria-label="Accessibility options"
+        aria-expanded="false" aria-controls="a11y-panel">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+    <circle cx="12" cy="4" r="2"/>
+    <path d="M20.5 7.5c-.3-.8-1.2-1.2-2-.9L14 8.2v-.1c-1.3.4-2.7.4-4 0v.1L5.5 6.6c-.8-.3-1.7.1-2 .9-.3.8.1 1.7.9 2l4.6 1.6v2.3l-2.2 5.9c-.3.8.1 1.7.9 2s1.7-.1 2-.9L11.5 15h1l1.8 5.4c.3.8 1.2 1.2 2 .9s1.2-1.2.9-2l-2.2-5.9v-2.3l4.6-1.6c.8-.3 1.2-1.2.9-2z"/>
+  </svg>
+  <span class="a11y-fab-label">Accessibility</span>
+</button>
+
+<div class="a11y-panel" id="a11y-panel" role="dialog" aria-labelledby="a11y-title" hidden>
+  <h2 id="a11y-title">Display options</h2>
+  <p class="a11y-note">These change how this site looks in your browser only. Your own screen reader, magnifier or browser zoom keeps working as normal.</p>
+
+  <fieldset class="a11y-group">
+    <legend>Text size</legend>
+    <div class="a11y-row">
+      <button type="button" data-a11y-size="default" aria-pressed="true">Default</button>
+      <button type="button" data-a11y-size="lg" aria-pressed="false">Large</button>
+      <button type="button" data-a11y-size="xl" aria-pressed="false">Larger</button>
+    </div>
+  </fieldset>
+
+  <fieldset class="a11y-group">
+    <legend>Reading</legend>
+    <button type="button" class="a11y-toggle" data-a11y="contrast" aria-pressed="false">
+      Higher contrast <span class="a11y-state">Off</span>
+    </button>
+    <button type="button" class="a11y-toggle" data-a11y="links" aria-pressed="false">
+      Highlight links <span class="a11y-state">Off</span>
+    </button>
+    <button type="button" class="a11y-toggle" data-a11y="spacing" aria-pressed="false">
+      More text spacing <span class="a11y-state">Off</span>
+    </button>
+    <button type="button" class="a11y-toggle" data-a11y="motion" aria-pressed="false">
+      Reduce motion <span class="a11y-state">Off</span>
+    </button>
+  </fieldset>
+
+  <button type="button" class="a11y-reset" data-a11y-reset>Reset to default</button>
+  <a class="a11y-link" href="/accessibility.html">Read our accessibility statement</a>
+</div>
+
+<script src="/script.d4dda02128.js" defer></script>
 </body>
 </html>
