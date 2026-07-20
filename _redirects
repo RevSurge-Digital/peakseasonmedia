@@ -1,0 +1,6 @@
+# Clean URLs kept working both ways (the old site linked to bare paths)
+/index.html            /                                   301!
+/home                  /                                   301
+/services              /restaurant-advertising.html        301
+/seo                   /local-seo-for-restaurants.html     301
+/ads                   /restaurant-advertising.html        301
